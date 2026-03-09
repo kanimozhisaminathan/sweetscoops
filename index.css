@@ -1,0 +1,165 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+background:linear-gradient(120deg,#ffd6e7,#d6f0ff,#fff2cc);
+}
+
+
+
+/* MAIN */
+
+.hero{
+position:relative;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:hidden;
+}
+
+.bg-video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+}
+
+.hero-content{
+color:white;
+text-align:center;
+text-shadow:2px 2px 8px black;
+}
+
+.shop-title{
+font-size:70px;
+color:#ffb6c1;
+font-weight:bold;
+animation:float 3s ease-in-out infinite;
+}
+
+.tagline{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.pink{
+background:#ff69b4;
+color:white;
+padding:10px 25px;
+border-radius:30px;
+}
+
+/* MENU */
+
+.menu-section{
+padding:80px 0;
+background:linear-gradient(120deg,#f6d365,#fda085);
+text-align: center;
+}
+
+.menu-list{
+list-style:none;
+padding:0;
+font-size:18px;
+}
+
+.menu-list li{
+display:flex;
+justify-content:space-between;
+padding:12px;
+border-bottom:1px dashed #ccc;
+transition:0.3s;
+}
+
+.menu-list li:hover{
+background:#ffe4f1;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px;
+background: linear-gradient(135deg,#FFD6E7,#CDE7FF,#FFE5B4); 
+color:white;
+text-align:center;
+}
+
+.container{
+    text-align: center;
+}
+
+/* COMBO */
+
+.combo{
+padding:80px 20px;
+text-align: center;
+}
+
+.combo-card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:0.3s;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.combo-card:hover{
+transform:translateY(-10px);
+}
+
+.price{
+font-size:22px;
+font-weight:bold;
+color:#ff6f91;
+}
+
+
+/* GALLERY */
+
+.gallery{
+padding:80px 20px;
+background:linear-gradient(120deg,#f6d365,#fda085);
+text-align: center;
+}
+
+.gallery-card{
+overflow:hidden;
+border-radius:20px;
+}
+
+.gallery-card img{
+width:100%;
+height:250px;
+object-fit:cover;
+transition:0.5s;
+}
+
+.gallery-card:hover img{
+transform:scale(1.1);
+}
+
+
+
+/* CONTACT */
+
+.contact-section{
+padding:80px 20px;
+background:linear-gradient(120deg,#c2e9fb,#a1c4fd);
+}
+
+.contact-section h4{
+color:#ff6f91;
+}
+
+.contact-section .form-control{
+border-radius:10px;
+border:none;
+padding:12px;
+}
+
+.contact-section .form-control:focus{
+box-shadow:0 0 10px #ffb6c1;
+}
